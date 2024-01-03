@@ -1,3 +1,3 @@
-(./design/desktop-preview.jpg)
+(./design/mobile-design.jpg)
 
 ## Welcome! 👋
