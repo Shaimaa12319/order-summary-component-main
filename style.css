@@ -1,0 +1,135 @@
+body {
+  /* background-image: url("/design/images/pattern-background-mobile.svg"); */
+  background-color: hsl(225, 100%, 94%);
+}
+
+.parent {
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+.section-one .svg-one {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+}
+p {
+  margin-left: 90px;
+  font-size: 16px;
+  max-width: 300px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.section-three {
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 25px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.section-three .svg-two {
+  vertical-align: middle;
+}
+.section-three .class-span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.class-span span {
+  text-align: center;
+  margin: 5px;
+  font-size: 14px;
+}
+.class-span .span-one {
+  font-weight: 900;
+}
+
+.class-span .span-two {
+  color: hsl(224, 23%, 55%);
+}
+
+a {
+  vertical-align: middle;
+  margin-left: 35%;
+  color: hsl(245, 75%, 52%);
+}
+
+.section-four {
+  margin-top: 40px;
+}
+.section-four .one {
+  box-shadow: 0px 7px 6px hsl(245, 75%, 81%);
+  display: block;
+  margin: 0 auto;
+  width: 87%;
+  padding: 12px;
+  margin-left: 25px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+}
+
+.section-four .two {
+  margin-left: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  background: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.parent,
+.section-three,
+.section-four .one,
+.section-one .svg-one {
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+h1,
+p,
+a,
+span,
+button {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.section-four .two,
+.section-four .one,
+a {
+  font-weight: 700;
+}
+
+@media (max-width: 375px) {
+  .parent div {
+    width: calc(90%-15px);
+  }
+}
+@media (max-width: 1440px) {
+  .parent div {
+    width: calc(40%-15px);
+  }
+}
