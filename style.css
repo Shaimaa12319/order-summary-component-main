@@ -1,6 +1,10 @@
 body {
-  /* background-image: url("/design/images/pattern-background-mobile.svg"); */
   background-color: hsl(225, 100%, 94%);
+  /* This is the updated path of the url */
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
 }
 
 .parent {
